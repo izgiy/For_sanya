@@ -308,7 +308,7 @@ color: #FFFFFF;
             .eclips_3{position: absolute;
                 width: 500px;
                 height: 500px;
-                left: 465px;
+                left: 865px;
                 top: 400px;
                 
                 background: radial-gradient(84.5% 84.5% at 32.6% 15.5%, #C4C4C4 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
@@ -317,8 +317,8 @@ color: #FFFFFF;
             .back_2{color: #FEFFFE;
                 position: absolute;
                 font-size: 3rem;
-                margin-top: 400px;
-                margin-left: 300px;
+                margin-top: 800px;
+                margin-left: 80px;
             }
             .back_1{color: #FEFFFE;
                 position: absolute;
@@ -329,7 +329,7 @@ color: #FFFFFF;
             .back_3{color: #FEFFFE;
                 position: absolute;
                 font-size: 3rem;
-                margin-top: 750px;
+                margin-top: 850px;
                 margin-left: 80px;
             }
             .back_4{
@@ -339,4 +339,5 @@ color: #FFFFFF;
                 margin-top: 750px;
                 margin-left: 135px;
             }
+            
             
