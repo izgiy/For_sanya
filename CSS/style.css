@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+*,*:before,*:after{
+-moz-box-sizing:border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6
+{font-size:inherit;font-weight: inherit;}
+body{position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #000000;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;}
+.Effecto_holigraphico{position: absolute;
+    width: 582px;
+    height: 156px;
+    left: calc(50% - 582px/2 - 291px);
+    top: 316px;
+    
+    
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;}
+
+.Effecto_holigraphic{position: absolute;
+        width: 218px;
+        height: 58px;
+        left: calc(50% - 218px/2 - 473px);
+        top: 522px;
+        
+        
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 81%;
+        /* or 29px */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #FFFFFF;}
+.color_1{
+    position: absolute;
+width: 34px;
+height: 34px;
+left: 138px;
+top: 599px;
+
+/* Color 1 */
+
+background: #2AD0CA;
+}
+.color_2{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 180px;
+    top: 599px;
+    
+    /* Color 5 */
+    
+    background: #E1F554;
+}
+.color_3{
+    position: absolute;
+width: 34px;
+height: 34px;
+left: 222px;
+top: 599px;
+
+/* Color 6 */
+
+background: #FFEEBB;
+}
+.color_4{
+    position: absolute;
+width: 34px;
+height: 34px;
+left: 263px;
+top: 599px;
+
+/* Color 4 */
+
+background: #ABB3FC;
+}
+.color_5{
+    position: absolute;
+width: 34px;
+height: 34px;
+left: 305px;
+top: 599px;
+
+/* Color 3 */
+
+background: #4DF7A4;
+}
+.color_6{
+    position: absolute;
+width: 34px;
+height: 34px;
+left: 347px;
+top: 599px;
+
+/* Color 2 */
+
+background: #2C8E5F;
+}
+.Eclips{/* Ellipse 1 */
+
+border-radius: 50%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 869px;
+    top: calc(50% - 500px/2 + 17px);
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), conic-gradient(from 180deg at 50% 50%, #000000 -14.78deg, #FFFFFF 10.19deg, #000000 46.87deg, #FFFFFF 101.25deg, #000000 151.87deg, #FFFFFF 202.5deg, #000000 258.75deg, #FFFFFF 307.5deg, #000000 345.22deg, #FFFFFF 370.19deg), conic-gradient(from 118.57deg at 50% 50%, #FFFFFF 0deg, #000000 65.32deg, #FFFFFF 127.56deg, #000000 159.38deg, #000000 187.33deg, #FFFFFF 240.86deg, #000000 296.25deg, #FEFFFE 360deg), radial-gradient(93.7% 93.7% at 24.9% 11.3%, #2AD0CA 0%, #E1F554 18.14%, #FFEEBB 35.43%, #ABB3FC 50.52%, #4DF7A4 66.91%, #2C8E5F 82.81%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: normal, screen, difference, normal;}
+    .Como_crear{
+        position: absolute;
+width: 434px;
+height: 52px;
+left: 79px;
+top: 240px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 62px;
+line-height: 81%;
+/* identical to box height, or 52px */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;}
+.Effecto_holigraphico_2{
+    position: absolute;
+width: 986px;
+height: 234px;
+left: 80px;
+top: 311px;
+font-weight: 800;
+font-size: 100px;
+line-height: 81%;
+/* or 100px */
+
+display: flex;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.en_figma
+{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 79px;
+    top: 564px;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 81%;
+    /* identical to box height, or 52px */
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.social_media{position: absolute;
+    width: 308px;
+    height: 52px;
+    left: 68px;
+    top: 635px;}
+    .vector{
+        position: absolute;
+left: 4.03%;
+right: 4.15%;
+top: 25.17%;
+bottom: 25.85%;
+    }
+    .eclips_2{
+        position: absolute;
+width: 644px;
+height: 644px;
+left: 807px;
+top: 514px;
+
+background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(42, 208, 202, 0) 100%);
+filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.25));
+backdrop-filter: blur(5.5px);
+/* Note: backdrop-filter has minimal browser support */
+    }
+    .number{
+        position: absolute;
+width: 47px;
+height: 29px;
+left: 1102px;
+top: 776px;
+font-weight: 600;
+font-size: 36px;
+line-height: 81%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    }
+    .paso_1
+    {
+        position: absolute;
+        width: 346px;
+        height: 0px;
+        left: calc(50% - 346px/2 - 287px);
+        top: calc(50% - 0px/2 - 292px);
+        
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 0%;
+        /* identical to box height, or 0px */
+        
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+    }
+    .crea{position: absolute;
+        width: 885px;
+        height: 29px;
+        left: 80px;
+        top: 303px;
+        
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 81%;
+        /* or 29px */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #FFFFFF;}
+        .tomano{
+            position: absolute;
+width: 232px;
+height: 56px;
+left: 80px;
+top: 466px;
+
+font-weight: 600;
+font-size: 24px;
+line-height: 115.5%;
+/* or 28px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+        }
+        .releno{position: absolute;
+            width: 215px;
+            height: 56px;
+            left: 80px;
+            top: 622px;
+            
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 115.5%;
+            /* or 28px */
+            
+            display: flex;
+            align-items: center;
+            
+            color: #FFFFFF;}
+            .eclips_3{position: absolute;
+                width: 500px;
+                height: 500px;
+                left: 465px;
+                top: 400px;
+                
+                background: radial-gradient(84.5% 84.5% at 32.6% 15.5%, #C4C4C4 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+                border-radius: 50%;
+            }
+            .back_2{color: #FEFFFE;
+                position: absolute;
+                font-size: 3rem;
+                margin-top: 400px;
+                margin-left: 300px;
+            }
+            .back_1{color: #FEFFFE;
+                position: absolute;
+                font-size: 3rem;
+                margin-top: 700px;
+                margin-left: 80px;
+            }
+            .back_3{color: #FEFFFE;
+                position: absolute;
+                font-size: 3rem;
+                margin-top: 750px;
+                margin-left: 80px;
+            }
+            .back_4{
+                color: #FEFFFE;
+                position: absolute;
+                font-size: 3rem;
+                margin-top: 750px;
+                margin-left: 135px;
+            }
+            
